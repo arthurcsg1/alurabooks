@@ -25,7 +25,8 @@
     border: 1px solid var(--azul-padrao);
     border-radius: 24px;
     font-family: var(--fonte);
-    padding: 10px 120px 10px 58px;
+    padding: 10px 0 10px 58px;
+    width: 80%;
     background: url(../img/Email.svg);
     background-repeat: no-repeat;
     background-position: 2em;
