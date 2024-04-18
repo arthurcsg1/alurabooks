@@ -1,0 +1,43 @@
+.cadastro {
+    background-color: white;
+    padding: 24px 24px 24px 30px;
+    font-family: var(--fonte);
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.cadastro__titulo {
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cadastro__subtitulo {
+    padding-bottom: 24px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.cadastro__email {
+    background-color: transparent;
+    border: 1px solid var(--azul-padrao);
+    border-radius: 24px;
+    font-family: var(--fonte);
+    padding: 10px 120px 10px 58px;
+    background: url(../img/Email.svg);
+    background-repeat: no-repeat;
+    background-position: 2em;
+}
+
+.cadastro__email::placeholder {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+hr {
+    margin: 0;
+}

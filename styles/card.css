@@ -6,6 +6,7 @@
     background-color: var(--branco);
     width: 320px;
     border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .card__conteudo {
@@ -75,4 +76,9 @@
     font-size: 14px;
     font-family: var(--fonte);
     font-weight: 700;
+}
+
+.estrela {
+    width: 91px;
+    padding-bottom: 9px;
 }
