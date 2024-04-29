@@ -31,3 +31,27 @@
     color: var(--branco);
     
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos {
+        margin-top: 48px;
+    }
+
+    .topicos__titulo {
+        font-size: 24px;
+        padding: 32px 0 40px 0;
+    }
+
+    .topicos__lista {
+        width: 740px;
+        padding-left: 140px;
+    }
+
+    .topicos__item {
+        margin: 2.5em .5em;
+    }
+
+    .topicos__link {
+        font-size: 24px;
+    }
+}

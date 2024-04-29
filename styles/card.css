@@ -11,6 +11,7 @@
 
 .card__conteudo {
     display: flex;
+    justify-content: space-between;
 }
 
 .card__texto {
@@ -49,6 +50,11 @@
     height: 120px;
 }
 
+.card__img__logo2 {
+    width: 120px;
+    height: 120px;
+}
+
 .card__texto__botoes {
     align-items: center;
     display: flex;
@@ -81,4 +87,28 @@
 .estrela {
     width: 91px;
     padding-bottom: 9px;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        margin: 0 auto;
+        width: 530px;
+        padding: 23px 23px 23px 16px;
+    }
+
+    .card__texto {
+        width: 328px;
+    }
+
+    .card__texto__paragrafo {
+        width: 300px;
+    }
+
+    .card__texto__botoes {
+        padding-top: 10px;
+    }
+
+    .card__img__logo {
+        padding-bottom: 10px;
+    }
 }

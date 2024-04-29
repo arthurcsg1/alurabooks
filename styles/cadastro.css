@@ -6,6 +6,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    display: flex;
+    flex-direction: column;
 }
 
 .cadastro__titulo {
@@ -27,6 +29,7 @@
     font-family: var(--fonte);
     padding: 10px 0 10px 0;
     width: 330px;
+    height: 20px;
     text-align: center;
 }
 
@@ -42,4 +45,28 @@
 
 hr {
     margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .cadastro {
+        padding: 30px 150px 30px 150px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .cadastro__titulo {
+        font-size: 24px;
+        width: 376px;
+        padding-bottom: 20px;
+    }
+
+    .cadastro__subtitulo {
+        width: 353px;
+    }
+    
+
+
+
+
 }
