@@ -47,7 +47,7 @@ hr {
     margin: 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 500px) {
     
     .cadastro {
         padding: 30px 150px 30px 150px;
@@ -64,9 +64,14 @@ hr {
     .cadastro__subtitulo {
         width: 353px;
     }
-    
+}
 
+@media screen and (min-width: 1065px) {
+    .cadastro {
+        padding: 30px 0 30px 350px;
+    }
 
-
-
+    .cadastro__titulo {
+        font-size: 22px;
+    }
 }

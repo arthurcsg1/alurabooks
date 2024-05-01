@@ -32,7 +32,7 @@
     
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 500px) {
     .topicos {
         margin-top: 48px;
     }
@@ -44,7 +44,7 @@
 
     .topicos__lista {
         width: 740px;
-        padding-left: 140px;
+        margin: 0 auto;
     }
 
     .topicos__item {

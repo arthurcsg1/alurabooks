@@ -69,8 +69,14 @@
 
                 <div class="cabecalho__list">
                     <a class="cabecalho__item cabecalho__item-transparente" href="#"><img src="./img/Favoritos.svg" alt="FAVORITOS"></a>
-                    <a class="cabecalho__item" href="#"><img src="./img/Compras.svg" alt="COMPRAS"></a>
-                    <a class="cabecalho__item" href="#"><img src="./img/Usuario.svg" alt="USUARIO"></a>
+                    <a class="cabecalho__item" href="#">
+                         <img src="./img/Compras.svg" alt="COMPRAS">
+                         <h2 class="cabecalho__item__titulo">Minha sacola</h2>
+                    </a>
+                    <a class="cabecalho__item" href="#">
+                         <img src="./img/Usuario.svg" alt="USUARIO">
+                         <h2 class="cabecalho__item__titulo">Meu perfil</h2>
+                    </a>
                 </div>
     </header>
     <section class="banner">
@@ -82,6 +88,7 @@
     <section class="carrosel">
           <h2 class="carrosel__titulo">Últimos Lançamentos</h2>
      <!-- Slider main container -->
+               <div class="container__carrosel">
      <div class="swiper">
      <!-- Additional required wrapper -->
      
@@ -103,31 +110,34 @@
      <div class="swiper-button-next"></div>
    
    </div>
-    </section>
-    <section class="card">
-          <div class="card__conteudo">
-               <div class="card__texto">
-                    <h2 class="card__texto__titulo">Talvez você também se interesse por...</h2>
-                    <h2 class="card__texto__subtitulo">Angular 11 e Firebase</h2>
-                    <p class="card__texto__paragrafo">Construindo uma aplicação integrada com a plataforma do Google.</p>
+
+          <div class="card">
+     <div class="card__conteudo">
+          <div class="card__texto">
+               <h2 class="card__texto__titulo">Talvez você também se interesse por...</h2>
+               <h2 class="card__texto__subtitulo">Angular 11 e Firebase</h2>
+               <p class="card__texto__paragrafo">Construindo uma aplicação integrada com a plataforma do Google.</p>
+          </div>
+          <img class="card__img__logo" src="./img/Perfil-escritora 2.svg" alt="LOGO-ANGULAR">
+     </div>
+     <div>
+          <div class="card__texto__botoes">
+               <div class="card__texto__botoes__abas">
+                    <a href="#"><img class="card__texto__botoes__img" src="./img/Favoritos.svg" alt="FAVORITOS"></a>
+                    <a href="#"><img class="card__texto__botoes__img" src="./img/Compras.svg" alt="COMPRAS"></a>
                </div>
-               <img class="card__img__logo" src="./img/Perfil-escritora 2.svg" alt="LOGO-ANGULAR">
+               <a class="card__img__botao" href="#">Saiba mais</a>
           </div>
+     </div>
           </div>
-          <div>
-               <div class="card__texto__botoes">
-                    <div class="card__texto__botoes__abas">
-                         <a href="#"><img class="card__texto__botoes__img" src="./img/Favoritos.svg" alt="FAVORITOS"></a>
-                         <a href="#"><img class="card__texto__botoes__img" src="./img/Compras.svg" alt="COMPRAS"></a>
-                    </div>
-                    <a class="card__img__botao" href="#">Saiba mais</a>
                </div>
-          </div>
     </section>
+    
 
     <section class="carrosel">
      <h2 class="carrosel__titulo2">Mais Vendidos</h2>
 <!-- Slider main container -->
+               <div class="container__carrosel">
 <div class="swiper">
 <!-- Additional required wrapper -->
 
@@ -149,9 +159,7 @@
 <div class="swiper-button-next"></div>
 
 </div>
-</section>
-
-<section class="card">
+<div class="card">
      <div class="card__conteudo">
           <div class="card__texto">
                <img class="estrela" src="./img/Estrelinhas.svg" alt="5 Estrelas">
@@ -170,6 +178,8 @@
                <a class="card__img__botao" href="#">Saiba mais</a>
           </div>
      </div>
+</div>
+               </div>
 </section>
 
 <section class="topicos">

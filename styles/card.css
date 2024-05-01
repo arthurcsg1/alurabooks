@@ -89,7 +89,7 @@
     padding-bottom: 9px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 500px) {
     .card {
         margin: 0 auto;
         width: 530px;
@@ -111,4 +111,25 @@
     .card__img__logo {
         padding-bottom: 10px;
     }
+}
+
+@media screen and (min-width: 1065px) {
+    .container__carrosel {
+        display: flex;
+        align-items: center;
+        margin: 150px;
+    }
+
+    .card__texto__titulo {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .card__texto__paragrafo {
+        line-height: 24px;
+    }
+
+    
+
+    
 }

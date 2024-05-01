@@ -41,7 +41,7 @@
     background-position: 3.5em;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 500px) {
     
     .banner__titulo {
         padding: 84px 0 10px 0;

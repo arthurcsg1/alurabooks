@@ -8,6 +8,18 @@
 
 .cabecalho__item {
     padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.cabecalho__item__titulo {
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--preto);
+    display: none;
 }
 
 .cabecalho__list {
@@ -73,7 +85,7 @@
     display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 500px) {
     .header__titulo {
         font-family: var(--fonte-secundaria);
         font-weight: 400;
@@ -126,4 +138,18 @@
         display: block;
         width: auto;
     }
+
+    .cabecalho__item__titulo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1065px) {
+    .cabecalho__item__titulo {
+        display: block;
+    }
+
+   .opçoes {
+        margin-right: auto;
+   }
 }

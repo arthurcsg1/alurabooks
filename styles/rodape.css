@@ -56,7 +56,7 @@ hr {
     display: flex;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 500px) {
 
     .rodape__lista {
         display: block;
@@ -69,8 +69,16 @@ hr {
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 499px) {
     .rodape__lista {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1065px) {
+    
+    .rodape__lista {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
     }
 }
